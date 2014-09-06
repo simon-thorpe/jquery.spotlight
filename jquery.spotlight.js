@@ -22,9 +22,6 @@
 			onHide: function(){}
 		}, options);
 		
-		// Do a compatibility check
-		if(!jQuery.support.opacity) return false;
-		
 		if($('#spotlight').size() == 0){
 			// Add the overlay div
 			$('body').append('<div id="spotlight"></div>');
